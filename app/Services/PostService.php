@@ -19,7 +19,7 @@ class PostService{
         $this->PostValidate($request); // validate the post request 
         $this->post->SavePost($request); // if validation is succesffull save the request
         
-        return back(); //go back
+        return back(); //go back demo cleanr
       
     }
 
